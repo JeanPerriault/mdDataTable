@@ -80,7 +80,7 @@
                     var cellValue = $interpolate(clone.text())($scope.$parent);
                     var cellDataToStore = {
                         alignRule: $scope.alignRule,
-                        columnDefinition: $scope.columnDefinition,
+                        columnDefinition: $scope.columnDefinition ? $scope.columnDefinition : cellValue,
                         columnName: cellValue
                     };
 
