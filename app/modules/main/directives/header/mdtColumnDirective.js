@@ -77,7 +77,7 @@
 
                 transclude(function (clone) {
                     // directive creates an isolate scope so use parent scope to resolve variables.
-                    var cellValue = $interpolate(clone.html())($scope.$parent);
+                    var cellValue = $interpolate(clone.text())($scope.$parent);
                     var cellDataToStore = {
                         alignRule: $scope.alignRule,
                         columnDefinition: $scope.columnDefinition,
