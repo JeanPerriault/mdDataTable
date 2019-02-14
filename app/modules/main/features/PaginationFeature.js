@@ -31,6 +31,9 @@
 
                 return false;
             };
+            scope.clickAction = function(){
+              console.error('CLICK DONE')
+            }
 
             ctrl.paginationFeature = {
                 startPaginationFeature: function() {
