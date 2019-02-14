@@ -1,11 +1,11 @@
 {
   "name": "md-data-table",
-  "version": "2.2.2",
-  "author": "Istvan Fodor <programtervezo@gmail.com>",
+  "version": "2.3.0",
+  "author": "Jean Perriault <jpweb.taf@gmail.com>",
   "registry": "github",
   "repository": {
     "type": "git",
-    "url": "git://github.com/nafsadh/mdDataTable"
+    "url": "git://github.com/JeanPerriault/mdDataTable"
   },
   "license": "MIT",
   "devDependencies": {
@@ -41,7 +41,7 @@
     "karma-ng-scenario": "~0.1.0",
     "karma-phantomjs-launcher": "~0.2.1",
     "karma-traceur-preprocessor": "~0.4.0",
-    "lodash": "~3.10.1",
+    "lodash": "^4.17.4",
     "main-bower-files": "~2.11.0",
     "phantomjs": "^2.1.7",
     "run-sequence": "~1.1.5",
@@ -49,13 +49,13 @@
     "wallaby-ng-html2js-preprocessor": "^0.1.0"
   },
   "dependencies": {
-    "angular": "^1.6.4",
+    "angular": "^1.7.0",
     "jquery": "^3.2.1",
     "angular-material": "^1.1.3",
-    "angular-aria": "~1.6.4",
-    "angular-animate": "^1.6.4",
+    "angular-aria": "~1.7.0",
+    "angular-animate": "^1.7.0",
     "lodash": "^4.17.4",
     "angular-material-icons": "^0.7.1",
-    "angular-sanitize": "^1.6.4"
+    "angular-sanitize": "^1.7.0"
   }
 }
